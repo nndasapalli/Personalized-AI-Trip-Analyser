@@ -1,7 +1,7 @@
 package com.easemytrip.controller;
 
 import com.easemytrip.model.TripRequest;
-import com.easemytrip.dto.PlannerResponse;
+import com.easemytrip.model.PlannerResponse;
 import com.easemytrip.service.AIService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

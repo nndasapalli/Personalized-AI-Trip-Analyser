@@ -1,9 +1,13 @@
-package com.easemytrip.dto;
+package com.easemytrip.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class HospitalInfo {
     private String name;
